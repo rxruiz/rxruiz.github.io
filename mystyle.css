@@ -1,0 +1,60 @@
+
+
+body {
+  background-color: lavender;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h1 {
+  color: navy;
+
+  
+} 
+table, th, td {
+  border:1px solid black;
+}
+.bolded { 
+  font-weight: bold;
+}
+.emphasized {
+  font-style: italic;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: navy;
+  color: white;
+}
+pre code {
+  font-size:16px;
+  display: block;
+  background: white;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 50%;
+  min-width: 100px;
+  padding: 0;
+}
